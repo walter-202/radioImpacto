@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/ImpactoLogo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512 tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <header id="Inicio">
+        <nav>
+            <div class="logo">
+                <img src="img/logo01.png" alt="" width="35" height="35">
+                <h4 class="page-title">Radio Impacto</h4>
+            </div>
+            <div class="icono" id="toggle">
+                <i class="fa fa-bars"></i>
+            </div>
+            <div class="enlaces" id="enlaces">
+                <a href="#Inicio" class="active">Inicio</a>
+                <a href="#Programas" class="active">Programación</a>
+                <a href="#Noticias" class="active">ElDiario</a>
+                <a href="#Direccion" class="active">Dirección</a>
+                <a href="#Contacto" class="active">Contacto</a>
+            </div>
+    
+        </nav>
+        <div class="radio"> 
+                <div class="texto">
+                    <div class="fecha">
+                        <h3>Fecha Actual</h4>
+                        <div id="Date">
+                            <script src="js/fecha.js"></script>
+                        </div>
+                    </div>
+                    <h1>Radio Impacto</h1>
+                    <div class="hora">
+                        <h3>Hora Actual</h4>
+                        <div id="date">
+                            <div id="digiClock"></div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="contenedor">
+
+                    <div class="mall-center">
+                        <h2>Mall Center</h2>
+                        <div class="slider">
+                            <div class="slide active">
+                            <img src="img/mall-center01.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center02.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center03.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center04.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center05.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center06.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center07.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center08.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center09.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center10.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center11.jpg" alt="">
+                            </div>
+                            <div class="slide">
+                            <img src="img/mall-center12.jpg" alt="">
+                            </div>
+                            
+                            <div class="navigation">
+                            <i class="fas fa-chevron-left prev-btn"></i>
+                            <i class="fas fa-chevron-right next-btn"></i>
+                            </div>
+    
+                        </div>
+                </div>
+                    <div class="reproductor">
+                        <h2>Radio Online</h2>
+                        <audio id="player" >
+                            <source src="https://cloudstream2030.conectarhosting.com/8224/stream" type="audio/mp3">
+                        </audio>
+                        <div class="player">
+                            <div class="control">
+                                <i class="fas fa-play" id="playbtn"></i>
+                            </div>
+                            <div id="current">0:00</div>
+                        </div>
+                    </div>
+
+                    <div class="online">
+                        <h2>Facebook Live</h2>
+                        <div class="tv-stream">
+                            <h5 class="info">Offline</h5>
+                          
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+    </header>
+
+    <button class="view-modal"><i class=" fas fa-share-alt"></i></button>
+    <div class="popup">
+        <div class="header">
+            <span>Compartir</span>
+            <div class="close"><i class="uil uil-times"></i></div>
+        </div class="header">
+        <div class="content">
+            <p>Compartir por:</p>
+            <ul class="icons">
+                <a href="https://www.facebook.com/sharer.php?u=www.impactobolivia.com&t=Radio Impacto"
+                    target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com/intent/tweet?text=RadioImpacto&url=www.impactobolivia.com&via=Bolivia&hashtags=#radios"
+                    target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="https://api.whatsapp.com/send?text=www.impactobolivia.com" target="_blank"><i
+                        class="fab fa-whatsapp"></i></a>
+                <a href="#"><i class="fab fa-telegram-plane"></i></a>
+            </ul>
+            <p>O copia este link:</p>
+            <div class="field">
+                <i class="url-icon uil uil-link"></i>
+                <input type="text" readonly value="www.impactobolivia.com">
+                <button>Copiar</button>
+            </div>
+        </div>
+        </div>
+    </div>
+
+    <div class="container-1">
+        <div class="contenedor-center">
+            <div class="contenedor-center-1" id="Programas">
+                <h2>Programación</h2>
+
+                <!-- Slider main container -->
+                <div class="owl-carousel owl-theme owl-loaded">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item"><img src="img/Banner01.jpg"></div>
+                            <div class="owl-item"><img src="img/Banner02.jpg"></div>
+                            <div class="owl-item"><img src="img/Banner03.jpg"></div>
+                            <div class="owl-item"><img src="img/Banner04.jpg"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="contenedor-center-2" id="Noticias">
+                <h2>El Diario</h2>
+                <div id="map">
+                    <iframe src="https://www.eldiario.net/" allowfullscreen="false" loading="lazy" ></iframe>
+                </div>
+            </div>
+            <div class="contenedor-center-3" id="Direccion">
+                <h2>Ubicación</h2>
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1608.397668703469!2d-68.13745910917922!3d-16.504076929859487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915f207a188d4fab%3A0x4841a82da0aa794a!2sNicol%C3%A1s%20Acosta%20556%2C%20La%20Paz!5e0!3m2!1ses-419!2sbo!4v1620071258772!5m2!1ses-419!2sbo" allowfullscreen="" loading="lazy" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+        
+        <div class="contenedor-right">
+            <div class="Publicidad">Publicidad</div>
+            <div class="ad"></div>
+        </div>
+    
+</div>
+
+    <footer>
+        <div class="footer-container" id="Contacto">
+            <div class="left-col">
+                <div class="logo">
+                    <img src="img/logo01.png" alt="Descargar app" class="logo2">
+                    <h4>Radio Impacto Bolivia</h4>
+                </div>
+                <h6 class="social-app-text"> Redes Sociales y Apps :</h6>
+                <div class="social-media">
+                    <ul>
+                        <li> <a href="https://www.facebook.com/RadioImpactoBolivia"><i id="icon" class="fab fa-facebook-f"></i></a></li>
+                    </ul>
+                    <a href="https://play.google.com/store/apps/details?id=com.linkit.radioimpacto&hl=es"> <img
+                            src="img/PlayGoogle.svg" alt="Descarga la app"> </a>
+                </div>
+                <p class="right-text"> <i class="fa fa-copyright"></i> 2021 Radio Impacto </p>
+            </div>
+            <div class="right-col">
+                <h4>Manténgase Informado</h4>
+                <div class="border"></div>
+                <p class="gray-text">Ingrese su email para recibir notificaciones</p>
+                <form action="POST" class="form-notifications">
+                    <input class="txtb" type="email" name="notificaciones" id="" placeholder="Ingrese su email">
+                    <input class="btn" type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+        
+    </footer>
+    <!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js" integrity="sha512-gY25nC63ddE0LcLPhxUJGFxa2GoIyA5FLym4UJqHDEMHjp8RET6Zn/SHo1sltt3WuVtqfyxECP38/daUc/WVEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
+    <script src="js/share.js"></script>
+	
+    <script src="js/hora.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/sliders.js"></script>
+</body>
+</html>
